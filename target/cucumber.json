@@ -1,0 +1,249 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-17T21:31:34.370Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.northWesternMutual.step_definitions.Hooks.setupLoginScenario()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Shopping cart login functionality test",
+        "description": "",
+        "id": "shopping-cart-login-functionality;shopping-cart-login-functionality-test",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.northWesternMutual.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7548000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on SwagLabs login page",
+            "match": {
+              "location": "com.northWesternMutual.step_definitions.UI_StepDefinations.ShoppingCart_Login_SD.user_is_on_SwagLabs_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2097000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user logs in with valid credentials",
+            "match": {
+              "location": "com.northWesternMutual.step_definitions.UI_StepDefinations.ShoppingCart_Login_SD.user_logs_in_with_valid_credentials()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 154000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user should see SwagLabs home page",
+            "match": {
+              "location": "com.northWesternMutual.step_definitions.UI_StepDefinations.ShoppingCart_Login_SD.user_should_see_SwagLabs_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip1"
+          }
+        ]
+      }
+    ],
+    "name": "Shopping cart login functionality",
+    "description": "",
+    "id": "shopping-cart-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/UI.featues/shoppingCart_Login.feature",
+    "tags": [
+      {
+        "name": "@wip1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-17T21:31:44.295Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.northWesternMutual.step_definitions.Hooks.setupLoginScenario()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Shopping cart functionality test",
+        "description": "",
+        "id": "shopping-cart-shopping-functionality;shopping-cart-functionality-test",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.northWesternMutual.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 511000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user on SwagLabs home page",
+            "match": {
+              "location": "com.northWesternMutual.step_definitions.UI_StepDefinations.ShoppingCart_Shopping_SD.userOnSwagLabsHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 255000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user sorts the items lowest price to highest price",
+            "match": {
+              "location": "com.northWesternMutual.step_definitions.UI_StepDefinations.ShoppingCart_Shopping_SD.userSortsTheItemsLowestPriceToHighestPrice()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 250000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user adds two or more items to the shopping cart",
+            "match": {
+              "location": "com.northWesternMutual.step_definitions.UI_StepDefinations.ShoppingCart_Shopping_SD.user_adds_two_or_more_items_to_the_shopping_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 399000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user visits the shopping cart",
+            "match": {
+              "location": "com.northWesternMutual.step_definitions.UI_StepDefinations.ShoppingCart_Shopping_SD.user_visits_the_shopping_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user should be able to remove item from shopping cart",
+            "match": {
+              "location": "com.northWesternMutual.step_definitions.UI_StepDefinations.ShoppingCart_Shopping_SD.user_should_be_able_to_remove_item_from_shopping_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 84000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user should be able to continue shopping",
+            "match": {
+              "location": "com.northWesternMutual.step_definitions.UI_StepDefinations.ShoppingCart_Shopping_SD.user_should_be_able_to_continue_shopping()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should be able to add another item to shopping cart",
+            "match": {
+              "location": "com.northWesternMutual.step_definitions.UI_StepDefinations.ShoppingCart_Shopping_SD.user_should_be_able_to_add_another_item_to_shopping_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1594000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should be able to checkout",
+            "match": {
+              "location": "com.northWesternMutual.step_definitions.UI_StepDefinations.ShoppingCart_Shopping_SD.user_should_be_able_to_checkout()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Shopping cart shopping functionality",
+    "description": "",
+    "id": "shopping-cart-shopping-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/UI.featues/shoppingChart_Shopping.feature",
+    "tags": [
+      {
+        "name": "@wip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
